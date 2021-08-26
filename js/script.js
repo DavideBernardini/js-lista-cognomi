@@ -15,6 +15,8 @@ cognomi.sort();
 console.log(cognomi);
 
 // determino la posizione del cognome inserito nella lista partendo da 1 e lo comunico all'utente
-var listPosition = parseInt(cognomi.indexOf(cognomeUtente) + " della lista") + 1;
+var listPosition = parseInt(cognomi.indexOf(cognomeUtente)) + 1;
 
 alert("Sei nella posizione numero " + listPosition + " della lista.")
+
+Io ho creato una variabile position
