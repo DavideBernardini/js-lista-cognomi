@@ -4,7 +4,7 @@ var cognomi = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
 // chiedo all'utente di inserire il cognome, facendo sì che la prima lettera sia maiuscola a prescindere
 var cognomeUtente = prompt("Inserisci il tuo cognome");
 
-cognomeUtente = cognomeUtente.charAt(0).toUpperCase() + cognomeUtente.slice(1)
+cognomeUtente = cognomeUtente.charAt(0).toUpperCase() + cognomeUtente.slice(1).toLowerCase();
 
 // aggiungo il cognome inserito nell'array
 cognomi.push(cognomeUtente);
